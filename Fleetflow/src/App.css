@@ -1,0 +1,28 @@
+.vehicles-toolbar {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.vehicles-toolbar input {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+}
+
+.vehicles-toolbar select {
+  min-width: 170px;
+  padding: 12px;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+  background: white;
+}
+
+.vehicle-count {
+  margin-top: 15px;
+  color: #64748b;
+  font-size: 13px;
+}
